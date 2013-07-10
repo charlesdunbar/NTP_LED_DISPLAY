@@ -1,0 +1,9 @@
+Code used to display the current time with my setup of 3 DE-DP14211 displays from Sure Electronics.
+
+Requires my ht1632c library, and a few other stock libraries found online.
+
+Mostly a copy/paste job from other tutorials I found online, did my best to link back to them in the source code.
+
+I use a Mega 2560 for my Arduino with an ethernet shield, and had a bit of time intially getting started.
+
+Reading http://arduino.cc/en/Hacking/PinMapping2560 shows the how the pin numbers are used.  As I'm using "Port C" in my code, pin 0 is mapped to the arduino's pin 37, down to arduino pin 30 for pin 7 of port C.
